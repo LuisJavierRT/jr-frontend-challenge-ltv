@@ -1,1 +1,0 @@
-# jr-frontend-challenge-ltv
