@@ -1,11 +1,16 @@
 body {
     margin: 0;
-    height: 65vh;
+    height: 85vh;
     background-color: #EBEBEB;
+    max-height: 85vh;
 }
 
 header {
-    height: 35vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 10vh;
     background-color: #004A80;
 }
 
@@ -48,7 +53,12 @@ footer {
 }
 
 .search-container {
+    position: relative;
+    background-color: #004A80;
     text-align: center;
+    height: 25vh;
+    max-height: 25vh;
+    margin-top: 8vh;
 }
 
 .search-description {
@@ -99,6 +109,7 @@ footer {
     color: #004A80;
     font-size: 2vmax;
     text-align: center;
+    margin: 1.5vh;
 }
 
 .reserve-email-description {
@@ -106,7 +117,7 @@ footer {
     text-align: center;
     margin-left: 25%;
     margin-right: 25%;
-    margin-bottom: 2%;
+    margin-bottom: 1%;
 }
 
 .items-container {
@@ -122,6 +133,25 @@ footer {
 
 .item-description {
     font-size: 0.8vmax;
+}
+
+.circle-icon {
+    border-radius: 50%;
+    width: 5vw;
+    height: 3.5vh;
+    padding: 2.5%;
+    background: #004A80;
+    color: #F5C22E;
+    text-align: center;
+    font: 1.7vmax Arial, sans-serif;
+}
+
+.item {
+    display: flex;
+}
+
+.item-data-style {
+    margin-left: 1vw;
 }
 
 .footer-description {

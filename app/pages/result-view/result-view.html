@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Frontend Challenge 2020</title>
+        <link rel="stylesheet" type="text/css" href="result-style.css" media="screen"/>
+    </head>
+    <body>
+        <header>
+            <img class="logo-icon" src="../../../assets/icons/icon_logo.png">
+            <div class="options-icons">
+                <img class="search-icon" src="../../../assets/icons/icon_search.png">
+                <img class="person-icon" src="../../../assets/icons/icon_person.png">
+            </div>
+        </header>
+        <main>
+            <div class="result-container">
+                <h1 class="result-title">Result</h1>
+                <label class="result-description">Look at the results below to see the details of the person you're searched for.</label>
+                <div class="card item">
+                    <div class="circle-icon">1</div>
+                    <div class="item-data-style">
+                        <label class="item-title">John Smith, 35</label>
+                        <p class="item-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam molestiae quos rerum facilis praesentium deleniti maiores similique, iure ullam sequi temporibus sunt neque beatae</p>
+                        <div class="row">
+                            <div class="column">
+                                <label class="item-detail-title">Address</label>
+                                <p class="item-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet sapiente</p>
+                            </div>
+                            <div class="column">
+                                <label class="item-detail-title">Phone Number</label>
+                                <p class="item-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet sapiente</p>
+                            </div>
+                            <div class="column"> 
+                                <label class="item-detail-title">Email</label>
+                                <p class="item-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet sapiente</p>
+                            </div>
+                            <div class="column">
+                                <label class="item-detail-title">Relatives</label>
+                                <p class="item-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet sapiente</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="search-container">
+                <h1 class="search-title">Can't find the right person?</h1>
+                <label class="search-description"> - Make a new search</label>
+                <div class="search-input-button">
+                    <input id="email" class="search-input" placeholder="Email">
+                    <button class="search-button" onclick="search()"> GO!</button>
+                </div>
+                <div>
+                    <img class="lock" src="../../../assets/icons/icon_lock.png">
+                    <label class="search-lock-message">Enter Any Email Address. They won't be notified.</label>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <label class="footer-description">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo aliquam soluta quo laborum eos sunt possimus enim quaerat accusamus nisi, expedita eligendi dolores quam minus minima libero incidunt beatae dolorum!
+            </label> 
+            <label class="terms-privacy">Terms | Privacy</label>
+        </footer>
+        <script type="module" src="result-view.js"></script>
+    </body>
+</html>

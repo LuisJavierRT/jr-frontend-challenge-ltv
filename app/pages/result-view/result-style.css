@@ -1,0 +1,255 @@
+body {
+    margin: 0;
+    height: 85vh;
+    background-color: #EBEBEB;
+    max-height: 85vh;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 5vh;
+    background-color: #004A80;
+}
+
+footer {
+    background-color: white;
+    height: 6vh;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.logo-icon {
+    width: 10vw;
+    height: 2vh;
+    padding: 1vw;
+    padding-top: 1.5vh;
+    padding-left: 1vw;
+}
+
+.lock {
+    width: 0.6vw;
+    height: 1.5vh;
+}
+
+.options-icons {
+    float: right;
+    padding-right: 0.5vw;
+    padding-top: 0.5vh;
+}
+
+.options-icons img {
+    width: 1vw;
+    height: 2vh;
+    padding: 0.5vw;
+}
+
+.result-title {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #004A80;
+    font-size: 2.5vmax;
+    font-weight: bold;
+}
+
+.result-container {
+    position: relative;
+    background-color: white;
+    height: 55vh;
+    max-height: 55vh;
+    margin-top: 5vh;
+    padding-top: 0.2vh;
+}
+
+.result-description {
+    display: block;
+    color:  black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 2vh;
+    text-align: center;
+    font-size: 1vmax;
+}
+
+.result-title {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #004A80;
+    font-size: 2.5vmax;
+    font-weight: bold;
+}
+
+.search-container {
+    position: relative;
+    background-color: #004A80;
+    text-align: center;
+    height: 35vh;
+    max-height: 35vh;
+}
+
+.search-title {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 2.5vmax;
+    margin: 0;
+    padding-top: 6vh;
+    padding-bottom: 2vh;
+}
+
+.search-description {
+    display: block;
+    color:  white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 2vh;
+    font-size: 1vmax;
+}
+
+.search-description:before{
+    content: "Try Again";
+    color: #F5C22E;
+}
+
+.search-input-button {
+    display: inline-flex;
+}
+
+.search-input {
+    width: 35vw;
+    height: 6vh;
+}
+
+.search-button {
+    width: 6vw;
+    height: 6vh;
+    margin-left: 2vw;
+    background-image: linear-gradient(to right, #ffb347 0%, #ffcc33 51%, #ffb347 100%)
+}
+
+.search-button:hover { 
+    background-position: right center; 
+    cursor: pointer;
+}
+
+.search-lock-message {
+    display: inline-flex;
+    margin-top: 3vh;
+    margin-left: 0.4vw;
+    color: #F5C22E;
+    font-size: 0.8vmax;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.reserve-email-title {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #004A80;
+    font-size: 2vmax;
+    text-align: center;
+    margin: 1.5vh;
+}
+
+.reserve-email-description {
+    font-size: 1vmax;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 1%;
+}
+
+.items-container {
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.item-title {
+    text-align: justify;
+    font-size: 1.5vmax;
+    font-weight: bold;
+    color: #004A80;
+}
+
+.item-description {
+    font-size: 0.8vmax;
+}
+
+.item {
+    display: flex;
+    margin-left: 25vw;
+    margin-right: 25vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.item-data-style {
+    margin-left: 1vw;
+    margin-top: 3vh;
+    margin-bottom: 2vh;
+}
+
+.item-detail-title {
+    font-size: 1vmax;
+    font-weight: bold;
+    color: #004A80;
+}
+
+.circle-icon {
+    border-radius: 50%;
+    width: 3.5vw;
+    height: 3.5vh;
+    padding: 2.5%;
+    background: #004A80;
+    color: #F5C22E;
+    text-align: center;
+    font: 1.7vmax Arial, sans-serif;
+    margin: 2%;
+}
+
+.footer-description {
+    float: left;
+    color: lightgray;
+    font-size: 1vmax;
+    margin-top: 1vh;
+    margin-left: 10vw;
+    max-width: 60vw;
+}
+
+.terms-privacy {
+    float: right;
+    color: #004A80;
+    font-size: 1vmax;
+    margin-top: 2vh;
+    margin-right: 1vw;
+}
+
+/* Float four columns side by side */
+.column {
+    float: left;
+    width: 45%;
+    padding-right: 1vw;
+}
+  
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+.column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+}
+}
+
+/* Style the counter cards */
+.card {
+    padding: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border: 0px;
+    border-radius: 15px;
+}
