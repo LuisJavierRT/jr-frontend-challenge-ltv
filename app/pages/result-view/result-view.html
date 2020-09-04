@@ -1,3 +1,4 @@
+<script src="result-view.js"></script>
 <html>
     <head>
         <meta charset="utf-8">
@@ -17,26 +18,28 @@
                 <h1 class="result-title">Result</h1>
                 <label class="result-description">Look at the results below to see the details of the person you're searched for.</label>
                 <div class="card item">
-                    <div class="circle-icon">1</div>
+                    <div class="circle-icon"><img class="icon-person" src="../../../assets/icons/icon_person.png"></div>
                     <div class="item-data-style">
-                        <label class="item-title">John Smith, 35</label>
-                        <p class="item-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam molestiae quos rerum facilis praesentium deleniti maiores similique, iure ullam sequi temporibus sunt neque beatae</p>
+                        <label id="name" class="item-title"></label>
+                        <p id="description" class="item-description"></p>
                         <div class="row">
                             <div class="column">
                                 <label class="item-detail-title">Address</label>
-                                <p class="item-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet sapiente</p>
+                                <p id="address" class="item-description"></p>
                             </div>
                             <div class="column">
                                 <label class="item-detail-title">Phone Number</label>
-                                <p class="item-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet sapiente</p>
+                                <ul id="phone-numbers" class="item-description item-description-list">
+
+                                </ul>
                             </div>
                             <div class="column"> 
                                 <label class="item-detail-title">Email</label>
-                                <p class="item-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet sapiente</p>
+                                <p id="person-email" class="item-description"></p>
                             </div>
                             <div class="column">
                                 <label class="item-detail-title">Relatives</label>
-                                <p class="item-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet sapiente</p>
+                                <ul id="relatives" class="item-description item-description-list"></ul>
                             </div>
                         </div>
                     </div>
@@ -46,10 +49,13 @@
                 <h1 class="search-title">Can't find the right person?</h1>
                 <label class="search-description"> - Make a new search</label>
                 <div class="search-input-button">
-                    <input id="email" class="search-input" placeholder="Email">
+                    <div class="form-group">
+                        <input id="email" type="text" class="search-input" required/>
+                        <label id="floating-label" class="floating-label">Email</label>
+                    </div>
                     <button class="search-button" onclick="search()"> GO!</button>
                 </div>
-                <div>
+                <div class="search-lock-container">
                     <img class="lock" src="../../../assets/icons/icon_lock.png">
                     <label class="search-lock-message">Enter Any Email Address. They won't be notified.</label>
                 </div>
@@ -61,6 +67,5 @@
             </label> 
             <label class="terms-privacy">Terms | Privacy</label>
         </footer>
-        <script type="module" src="result-view.js"></script>
     </body>
 </html>
