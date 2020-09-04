@@ -9,7 +9,6 @@ function search() {
     }
 
     if (!validateEmail(email)) {
-        console.log('Invalid Email');
         floatingLabel.style.color = 'red';
         floatingLabel.innerHTML = 'Please provide a valid email';
         emailElement.className = 'search-input-error';

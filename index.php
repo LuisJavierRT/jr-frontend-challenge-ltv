@@ -1,0 +1,1 @@
+<?php include_once("app/pages/search-view/search-view.html"); ?>

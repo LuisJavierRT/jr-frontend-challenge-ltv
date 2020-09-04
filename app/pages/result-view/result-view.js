@@ -9,7 +9,6 @@ function search() {
     }
 
     if (!validateEmail(email)) {
-        console.log('Invalid Email');
         floatingLabel.style.color = 'red';
         floatingLabel.innerHTML = 'Please provide a valid email';
         emailElement.className = 'search-input-error';
@@ -42,7 +41,6 @@ function getPersonData() {
         }
         
         if (Http.responseText === '[]') {
-            console.log('Could not find email');
             alert('Could not find data for that email. Please try again using another email');
             window.location.href = '../search-view/search-view.html';
             return;
