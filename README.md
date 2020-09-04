@@ -5,3 +5,6 @@ App to search a user record by email address, and the result of that search will
 
 ## Installation
 Clone the project in your workspace with ```git clone https://github.com/LuisJavierRT/jr-frontend-challenge-ltv.git```
+
+## Deployment 
+This project has been deployed using heroku. The url is: ```https://ltv-frontend-challenge.herokuapp.com/```
