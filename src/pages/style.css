@@ -235,4 +235,9 @@ input:not(:focus):valid ~ .floating-label{
         max-width: 60vw;
     }
 
+    .icon-person {
+        width: 4vw;
+        height: 2vh;
+    }
+
   }
