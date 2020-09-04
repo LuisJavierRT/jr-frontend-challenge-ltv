@@ -1,0 +1,238 @@
+body {
+    margin: 0;
+    height: 85vh;
+    background-color: #EBEBEB;
+    max-height: 85vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+    background-color: white;
+    height: 6vh;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.logo-icon {
+    width: 10vw;
+    height: 2vh;
+    padding: 1vw;
+    padding-top: 1.5vh;
+    margin-left: 25vw;
+}
+
+.lock {
+    width: 0.6vw;
+    height: 1.5vh;
+}
+
+.options-icons {
+    float: right;
+    margin-top: 0.5vh;
+    margin-right: 26vw;
+}
+
+.options-icons img {
+    width: 1vw;
+    height: 2vh;
+    padding: 0.5vw;
+}
+
+.search-description {
+    display: block;
+    color: white;
+    margin-bottom: 2vh;
+    font-size: 1vmax;
+}
+
+.search-input-button {
+    display: inline-flex;
+}
+
+.search-input {
+    width: 37vw;
+    height: 6vh;
+    padding-left: 0.9vw;
+    padding-top: 1.2vh;
+    font-size: 1vmax;
+}
+
+.search-input:focus {
+    outline: none;
+    border: 2px solid #F5C22E;
+}
+
+.search-input-error {
+    width: 37vw;
+    height: 6vh;
+    padding-left: 0.9vw;
+    padding-top: 1.2vh;
+    border: 2px solid red;
+}
+
+.form-group {
+    position: relative;
+}
+
+input:focus ~ .floating-label,
+input:not(:focus):valid ~ .floating-label{
+  left: 1vw;
+  top: 0.5vh;
+  font-size: 0.8vmax;
+  opacity: 1;
+}
+
+.floating-label {
+  position: absolute;
+  pointer-events: none;
+  left: 1vw;
+  top: 1.7vh;
+  transition: 0.2s ease all;
+  color: gray;
+  font-size: 1vmax;
+}
+
+.search-button {
+    width: 8vw;
+    height: 6vh;
+    margin-left: 2vw;
+    transition: all ease 0.5s;
+    cursor: pointer;
+    background-image: linear-gradient(to right, #F2DA56, #F2DA56, #F6BC25, #F6BC25);
+    background-size:300%;
+    background-position: 0 0;
+    -webkit-appearance: none !important;
+    text-decoration:none;
+    border: 0;
+    border-radius: 6px;
+    box-shadow: none;
+    color: #004A80;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1vmax;
+}
+
+.search-button:focus { 
+    background-position: 100% 0;
+    cursor: pointer;
+    outline: none;
+}
+
+.search-lock-container {
+    text-align: start;
+    margin-left: 27vw;
+}
+
+.search-lock-message {
+    display: inline-flex;
+    margin-top: 3vh;
+    margin-left: 0.4vw;
+    color: #F5C22E;
+    font-size: 0.8vmax;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.reserve-email-title {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #004A80;
+    font-size: 2vmax;
+    text-align: center;
+    margin: 1.5vh;
+}
+
+.items-container {
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.footer-description {
+    float: left;
+    color: lightgray;
+    font-size: 1vmax;
+    margin-top: 1vh;
+    margin-left: 10vw;
+    max-width: 75vw;
+}
+
+.terms-privacy {
+    float: right;
+    color: #004A80;
+    font-size: 1vmax;
+    margin-top: 2vh;
+    margin-right: 1vw;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media (orientation: portrait) {
+    .logo-icon {
+        width: 10vh;
+        height: 2vh;
+        padding: 1vw;
+        padding-top: 1.5vh;
+        margin-left: 5vw;
+    }
+
+    .options-icons {
+        float: right;
+        margin-top: 1.5vh;
+        margin-right: 5vw;
+    }
+
+    .options-icons img {
+        width: 4vw;
+        height: 2vh;
+        padding: 0.5vw;
+    }
+
+    .search-input {
+        width: 70vw;
+        height: 4vh;
+        padding-left: 0.9vw;
+        padding-top: 1.2vh;
+    }
+
+    .search-input-button {
+        display: inline-table;
+    }
+
+    .search-button {
+        width: 70vw;
+        height: 4vh;
+        margin-left: 0vw;
+        margin-top: 0.5vh;
+    }
+
+    .lock {
+        width: 1.5vw;
+        height: 0.7vh;
+    }
+
+    .reserve-email-description {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    .circle-icon {
+        width: 15vw !important;
+        height: 3vh !important;
+        padding-top: 1vh !important;
+    }
+
+    .column {
+        width: 50vw !important;
+    }
+
+    .footer-description {
+        font-size: 0.7vmax;
+        margin-top: 0.5vh;
+        max-width: 60vw;
+    }
+
+  }

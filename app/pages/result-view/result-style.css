@@ -1,0 +1,154 @@
+header {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 5vh;
+    background-color: #004A80;
+}
+
+.icon-person {
+    width: 70%;
+    height: 90%;
+}
+
+.result-title {
+    text-align: center;
+    color: #004A80;
+    font-size: 2.5vmax;
+    font-weight: bold;
+}
+
+.result-container {
+    position: relative;
+    background-color: white;
+    height: 55vh;
+    max-height: 55vh;
+    margin-top: 5vh;
+    padding-top: 0.2vh;
+}
+
+.result-description {
+    display: block;
+    color:  black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 2vh;
+    text-align: center;
+    font-size: 1vmax;
+}
+
+.result-title {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #004A80;
+    font-size: 2.5vmax;
+    font-weight: bold;
+}
+
+.search-container {
+    position: relative;
+    background-color: #004A80;
+    text-align: center;
+    height: 35vh;
+    max-height: 35vh;
+}
+
+.search-title {
+    text-align: center;
+    color: white;
+    font-size: 2.5vmax;
+    margin: 0;
+    padding-top: 6vh;
+    padding-bottom: 2vh;
+}
+
+.search-description:before{
+    content: "Try Again";
+    color: #F5C22E;
+    font-weight: bold;
+}
+
+.reserve-email-description {
+    font-size: 1vmax;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 1%;
+    overflow-y: scroll;
+    max-height: 65vh;
+}
+
+.item-title {
+    text-align: justify;
+    font-size: 1.5vmax;
+    font-weight: bold;
+    color: #004A80;
+}
+
+.item-description {
+    font-size: 0.8vmax;
+}
+
+.item-description-list {
+    list-style-type: none;
+}
+
+.item {
+    display: flex;
+    margin-left: 25vw;
+    margin-right: 25vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.item-data-style {
+    margin-left: 1vw;
+    margin-top: 3vh;
+    margin-bottom: 2vh;
+}
+
+.item-detail-title {
+    font-size: 1vmax;
+    font-weight: bold;
+    color: #004A80;
+}
+
+.circle-icon {
+    border-radius: 50%;
+    width: 2.5vw;
+    height: 3.5vh;
+    padding: 2.5%;
+    background: #004A80;
+    color: #F5C22E;
+    text-align: center;
+    font: 1.7vmax Arial, sans-serif;
+    margin: 2%;
+}
+
+.column {
+    float: left;
+    width: 45%;
+    padding-right: 1vw;
+}
+
+@media screen and (max-width: 600px) {
+.column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+}
+}
+
+.card {
+    padding: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border: 0px;
+    border-radius: 15px;
+}
+
+li {
+    padding-top: 0.4vh;
+}
+
+ul {
+    padding-inline-start: 0;
+}

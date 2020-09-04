@@ -1,0 +1,90 @@
+header {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 10vh;
+    background-color: #004A80;
+}
+
+.search-container {
+    position: relative;
+    background-color: #004A80;
+    text-align: center;
+    height: 25vh;
+    max-height: 25vh;
+    margin-top: 8vh;
+}
+
+.search-title {
+    text-align: center;
+    color: white;
+    font-size: 2vmax;
+}
+
+.search-description:before{
+    content: "Start Here";
+    color: #F5C22E;
+    font-weight: bold;
+}
+
+.reserve-email-description {
+    font-size: 1vmax;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 4vh;
+    color: #4A4A4A;
+}
+
+.item-title {
+    text-align: justify;
+    font-size: 1vmax;
+    font-weight: bold;
+    color: #004A80;
+}
+
+.item-description {
+    font-size: 0.8vmax;
+    color: #4A4A4A;
+    line-height: 2.2vh;
+}
+
+.circle-icon {
+    border-radius: 50%;
+    width: 12vw;
+    height: 5vh;
+    padding-top: 2vh;
+    background: #004A80;
+    color: #F5C22E;
+    text-align: center;
+    font: 1.7vmax Arial, sans-serif;
+}
+
+.item {
+    display: flex;
+}
+
+.item-data-style {
+    margin-left: 1vw;
+}
+
+.column {
+    float: left;
+    width: 22vw;
+    padding: 0 1vw;
+}
+
+
+@media screen and (max-width: 600px) {
+.column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+    }
+}
+
+.card {
+    padding: 5px;
+    border: 0px;
+}
