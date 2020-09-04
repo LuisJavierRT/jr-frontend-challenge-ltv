@@ -17,7 +17,7 @@ function search() {
 
     floatingLabel.style.color = 'gray';
     emailElement.className = 'search-input';
-    window.location.href = '../result-view/result-view.html?email=' + email;
+    window.location.href = '/src/pages/result-view/result-view.html?email=' + email;
 }
 
 function validateEmail(email) {

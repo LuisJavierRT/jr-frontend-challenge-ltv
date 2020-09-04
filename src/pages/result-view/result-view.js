@@ -42,7 +42,7 @@ function getPersonData() {
         
         if (Http.responseText === '[]') {
             alert('Could not find data for that email. Please try again using another email');
-            window.location.href = '../search-view/search-view.html';
+            window.location.href = '/src/pages/search-view/search-view.html';
             return;
         }
 
