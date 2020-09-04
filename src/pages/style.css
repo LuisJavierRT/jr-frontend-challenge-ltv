@@ -236,8 +236,8 @@ input:not(:focus):valid ~ .floating-label{
     }
 
     .icon-person {
-        width: 4vw;
-        height: 2vh;
+        width: 4vw !important;
+        height: 2vh !important;
     }
 
   }
