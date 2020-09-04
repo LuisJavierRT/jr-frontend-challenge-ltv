@@ -1,1 +1,1 @@
-<?php include_once("home.html"); ?>
+<?php include_once("./src/pages/search-view/search-view.html"); ?>
